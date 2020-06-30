@@ -16,6 +16,10 @@ body {
     font-family: 'Sarabun', sans-serif;
 }
 
+#about h2, h3, .testimonials h2, h3, #contact h2, h3, #photos h2, h3{
+    font-family: 'Amaranth', sans-serif;
+}
+
 /*Styling for Sidebar nav*/
 .w3-sidebar {
     width: 120px;
