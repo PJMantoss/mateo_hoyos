@@ -65,6 +65,11 @@ body {
 }
 
 /*Styling for About section*/
+.w3-content > .bio > strong, a{
+   color: white;
+   text-decoration: none;
+}
+
 .w3-content > .w3-wide {
     margin: 10px 0;
 }
