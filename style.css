@@ -82,11 +82,21 @@ body {
 
 .testimonials > .testimony {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.testimony > img {
+    width: auto;
+}
+
+@media(max-width: 690px) {
+    .testimonials > .testimony {
+        flex-wrap: wrap;
+    }
 }
 
 .testimony > .text {
     align-self: center;
+    width: auto;
 }
 
 /*Styling for Portfolio section*/
