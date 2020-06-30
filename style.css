@@ -34,8 +34,10 @@ body {
     padding: 10px;
 }
 
-.w3-bar-item > p {
+.w3-bar-item > p, #myNavbar {
+    font-size: 14px;
     padding-bottom: 10px;
+    font-family: 'ZCOOL XiaoWei', serif;
 }
 
 /*Styling for main page container*/
@@ -55,6 +57,7 @@ body {
     font-family: 'Amaranth', sans-serif;
 }
 
+/* Remove margins from "page content" on small screens */
 @media (max-width: 690px){
     #main {
         margin-left: 0;
