@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Lilita+One&family=Sarabun&family=ZCOOL+XiaoWei&display=swap');
+
 /*Base Resets*/
 * {
     margin: 0;
     padding: 0;
 }
 
-/**/
+/*General styling*/
 body {
-    font-family: monospace;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#about p, .testimonials p, #contact p{
+    font-family: 'Sarabun', sans-serif;
 }
 
 /*Styling for Sidebar nav*/
@@ -35,13 +42,22 @@ body {
 #main > header > img {
     margin-top: 10px;
 }
+
+#main > header > h1 {
+    font-family: 'Lilita One', cursive;
+}
+
+#main > header > p{
+    font-family: 'Amaranth', sans-serif;
+}
+
 @media (max-width: 690px){
     #main {
         margin-left: 0;
     }
 }
 
-/*Styling for skills sub-section in About section*/
+/*Styling for About section*/
 .w3-content > .w3-wide {
     margin: 10px 0;
 }
