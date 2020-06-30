@@ -11,7 +11,7 @@ body {
 
 /*Styling for Sidebar nav*/
 .w3-sidebar {
-    width: 110px;
+    width: 120px;
     background: #222;
 }
 
@@ -63,4 +63,13 @@ body {
 /*Styling for Portfolio section*/
 .w3-half > img {
     margin-top: 10px;
+}
+
+/*Styling for Contact section*/
+#contact .w3-section {
+    padding-bottom: 25px;
+}
+
+.w3-section p {
+    padding: 10px 0;
 }
