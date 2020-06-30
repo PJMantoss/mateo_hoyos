@@ -18,3 +18,9 @@ body {
 #main {
     margin-left: 120px;
 }
+
+@media (max-width: 690px){
+    #main {
+        margin-left: 0;
+    }
+}
