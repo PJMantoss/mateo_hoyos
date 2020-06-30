@@ -27,12 +27,21 @@ body {
     padding-bottom: 10px;
 }
 
+/*Styling for main page container*/
 #main {
     margin-left: 120px;
 }
 
+#main > header > img {
+    margin-top: 10px;
+}
 @media (max-width: 690px){
     #main {
         margin-left: 0;
     }
+}
+
+/*Styling for skills sub-section in About section*/
+.w3-content > .w3-wide {
+    margin: 10px 0;
 }
