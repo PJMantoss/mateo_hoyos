@@ -107,10 +107,15 @@ body {
 
 /*Styling for footer*/
 
+.social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
 #love {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 60px;
 }
