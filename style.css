@@ -107,9 +107,9 @@ body {
 #love {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #love > span {
@@ -131,7 +131,8 @@ body {
 
 @media(max-width: 660px){
     #love {
-        margin-top: 60px;
+        justify-content: center;
+        margin-top: 40px;
     }
 
     #love > span {
