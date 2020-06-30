@@ -45,3 +45,13 @@ body {
 .w3-content > .w3-wide {
     margin: 10px 0;
 }
+
+/*Styling for Reputation/Testimonials sub-section in About section*/
+.testimonials {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials > .testimony {
+    display: flex;
+}
