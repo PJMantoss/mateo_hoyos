@@ -82,6 +82,7 @@ body {
 
 .testimonials > .testimony {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .testimony > .text {
