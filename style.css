@@ -107,9 +107,9 @@ body {
 #love {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #love > span {
@@ -120,11 +120,25 @@ body {
 }
 
 #love > img {
-    width: 20px;
+    width: 40px;
     padding: 10px;
 }
 
 #love > span > a {
     text-decoration: none;
     color: yellow;
+}
+
+@media(max-width: 660px){
+    #love {
+        margin-top: 60px;
+    }
+
+    #love > span {
+        font-size: 11px;
+    }
+
+    #love > img {
+        width: 35px
+    }
 }
