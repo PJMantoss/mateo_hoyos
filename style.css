@@ -14,3 +14,7 @@ body {
     width: 120px;
     background: #222;
 }
+
+#main {
+    margin-left: 120px;
+}
