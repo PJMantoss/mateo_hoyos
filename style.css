@@ -11,8 +11,20 @@ body {
 
 /*Styling for Sidebar nav*/
 .w3-sidebar {
-    width: 120px;
+    width: 110px;
     background: #222;
+}
+
+.w3-sidebar img {
+    margin-top: 5px;
+}
+
+.w3-bar-item > i {
+    padding: 10px;
+}
+
+.w3-bar-item > p {
+    padding-bottom: 10px;
 }
 
 #main {
