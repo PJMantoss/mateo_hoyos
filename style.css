@@ -55,3 +55,7 @@ body {
 .testimonials > .testimony {
     display: flex;
 }
+
+.testimony > .text {
+    align-self: center;
+}
