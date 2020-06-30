@@ -73,3 +73,11 @@ body {
 .w3-section p {
     padding: 10px 0;
 }
+
+#contact form {
+    padding-top: 15px;
+}
+
+#contact form p {
+    padding-bottom: 15px;
+}
