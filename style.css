@@ -9,3 +9,8 @@ body {
     font-family: monospace;
 }
 
+/*Styling for Sidebar nav*/
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
