@@ -59,3 +59,8 @@ body {
 .testimony > .text {
     align-self: center;
 }
+
+/*Styling for Portfolio section*/
+.w3-half > img {
+    margin-top: 10px;
+}
